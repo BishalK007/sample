@@ -1,0 +1,49 @@
+body{
+    background-color: #f2fbfb;
+}
+header{
+    text-align: center;
+}
+h1{
+    border-radius: 15px 50px 30px;
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    
+}
+nav{
+    
+    border-radius: 25px;
+    background-color: #322020;
+    /* height: fit-content; 
+    width: fit-content;  */
+}
+ul {
+    text-align: center;
+    list-style: inside; 
+    margin-right: 40px; 
+}
+
+a{
+    color: #FFFFFF;
+}
+#container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+  }
+  #container > div {
+    width: 250px;
+  }
+  #container2 {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: center; /* switched from default (flex-start, see below) */
+  }
+  #container2 > div {
+    width: 30px;
+  }
+h2{
+    text-align: center;
+  }
